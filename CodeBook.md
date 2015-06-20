@@ -20,3 +20,8 @@
 
 ##Steps
 
+* Read in the data from files
+* Assigin column names to the data imported above
+* Merges the training and the test sets to create one data set
+* Extracts only the measurements on the mean and standard deviation for each measurement
+* From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
