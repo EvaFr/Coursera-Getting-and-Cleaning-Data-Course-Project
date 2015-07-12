@@ -45,5 +45,5 @@ allData <- cbind(xdata, ydata, subjectData)
 #the average of each variable for each activity and each subject
 
 averagesData <- ddply(allData, .(subjectId, activityId), function(x) colMeans(x[, 1:66]))
-write.table(averagesData, "tidydata.txt", row.names=TRUE,sep='\t')
+write.table(averagesData, "tidydata.txt", row.names=FALSE,sep='\t')
 
